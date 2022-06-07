@@ -15,7 +15,7 @@
     "start": "npm run ncp && react-scripts start",
     "build": "npm run ncp && react-scripts build",
     "eject": "react-scripts eject",
-    "ncp": "cp -r node_modules/@mediapipe/selfie_segmentation public/assets",
+    "ncp": "rm -rf public/assets && cp -r node_modules/@mediapipe public/assets",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
