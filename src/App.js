@@ -14,6 +14,7 @@ function App() {
   const [filter, setFilter] = useState();
 	const resolution = { width: 1280, height: 720 };
 
+  // only used for check the permission for webcam
   useEffect(() => {
     navigator.mediaDevices.getUserMedia({
       video: {
