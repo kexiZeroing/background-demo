@@ -35,7 +35,8 @@ export default class Webcam extends Component {
     this.selfieSegmentation = new SelfieSegmentation({
       locateFile: (file) => {
         // https://github.com/google/mediapipe/issues/2407
-        return `background-demo/assets/selfie_segmentation/${file}`;
+        // https://create-react-app.dev/docs/adding-custom-environment-variables/
+        return `${process.env.NODE_ENV === 'production' ? '' : 'background-demo/'}assets/selfie_segmentation/${file}`;
       },
     });
 
