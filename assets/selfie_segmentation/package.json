@@ -1,0 +1,58 @@
+{
+  "_from": "@mediapipe/selfie_segmentation",
+  "_id": "@mediapipe/selfie_segmentation@0.1.1632777926",
+  "_inBundle": false,
+  "_integrity": "sha512-OSGhYaZsdOXKyY0JCueOflq3ICLNMrBekI2V8vShum8wuoH3xjfEM6NnIujwJ5SlTdZEXi7Up2koOILDgQbWyg==",
+  "_location": "/@mediapipe/selfie_segmentation",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@mediapipe/selfie_segmentation",
+    "name": "@mediapipe/selfie_segmentation",
+    "escapedName": "@mediapipe%2fselfie_segmentation",
+    "scope": "@mediapipe",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@mediapipe/selfie_segmentation/-/selfie_segmentation-0.1.1632777926.tgz",
+  "_shasum": "67d37a53b0de89efc4a0e3b63332a4da3a6ad9c8",
+  "_spec": "@mediapipe/selfie_segmentation",
+  "_where": "/Users/kexi/Documents/background-demo",
+  "author": {
+    "name": "mhays@google.com"
+  },
+  "browser": {
+    "node-fetch": false,
+    "util": false,
+    "crypto": false
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Mediapipe Selfie Segmentation Solution",
+  "devDependencies": {},
+  "homepage": "https://google.github.io/mediapipe/solutions/selfie_segmentation",
+  "jsdelivr": "selfie_segmentation.js",
+  "keywords": [
+    "AR",
+    "ML",
+    "Augmented"
+  ],
+  "license": "Apache-2.0",
+  "main": "selfie_segmentation.js",
+  "module": "selfie_segmentation.js",
+  "name": "@mediapipe/selfie_segmentation",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "sideEffects": [],
+  "types": "index.d.ts",
+  "unpkg": "selfie_segmentation.js",
+  "version": "0.1.1632777926"
+}
