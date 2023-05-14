@@ -7,6 +7,7 @@ MediaPipe can create custom cross-platform ML solutions for common tasks without
 
 - Create a custom object detection web app with MediaPipe: https://codelabs.developers.google.com/mp-object-detection-web
 - MediaPipe Studio: https://mediapipe-studio.webapps.google.com
+- Easy on-device Machine Learning with MediaPipe: https://www.youtube.com/watch?v=yOP_FY2KTm8
 
 **Basic process:**  
 getUserMedia -> video -> selfieSegmentation -> draw canvas -> apply filter -> captureStream -> video
