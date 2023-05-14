@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Virtual background demo with the help of MediaPipe
 
 **Live demo:** https://kexizeroing.github.io/background-demo
 
