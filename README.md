@@ -2,10 +2,11 @@
 
 **Live demo:** https://kexizeroing.github.io/background-demo
 
-**About MediaPipe**
+**About MediaPipe**  
 MediaPipe can create custom cross-platform ML solutions for common tasks without ML expertise.
+
 - Create a custom object detection web app with MediaPipe: https://codelabs.developers.google.com/mp-object-detection-web
-- MediaPipe Studio (On-device ML for everyone): https://mediapipe-studio.webapps.google.com
+- MediaPipe Studio: https://mediapipe-studio.webapps.google.com
 
 **Basic process:**  
 getUserMedia -> video -> selfieSegmentation -> draw canvas -> apply filter -> captureStream -> video
